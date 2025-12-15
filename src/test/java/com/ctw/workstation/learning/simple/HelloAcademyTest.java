@@ -54,7 +54,7 @@ class HelloAcademyTest {
 
     @ParameterizedTest
     @MethodSource
-    @DisplayName("when say hello with name non null valid hello greeting is returned")
+    @DisplayName("when say hello with non null name valid hello greeting is returned")
     void when_say_hello_with_name_non_null_valid_hello_greeting_is_returned(String name, String expected) {
         //given
         //when
