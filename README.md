@@ -1,4 +1,4 @@
-# workstation-rack-module
+# academy workstation-rack-module
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
