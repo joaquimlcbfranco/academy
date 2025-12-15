@@ -43,5 +43,5 @@ jobs:
     - name: Tag image and push it to Docker Hub
       uses: ./.github/actions/docker_push
       with:
-        docker_image: 'academy-test: v1.1'
+        docker_image: 'academy-test:v1.1'
         docker_username: 'joaquimfranco57216'
