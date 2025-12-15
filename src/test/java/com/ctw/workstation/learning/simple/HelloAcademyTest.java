@@ -47,7 +47,6 @@ class HelloAcademyTest {
                 Arguments.of("Rennan", "Hello Rennan"),
                 Arguments.of("Alice", "Hello Alice"),
                 Arguments.of("Bob", "Hello Bob"),
-                Arguments.of(null, "Hello"),
                 Arguments.of("", "Hello "),
                 Arguments.of(" ", "Hello  ")
         );
@@ -55,7 +54,6 @@ class HelloAcademyTest {
 
     @ParameterizedTest
     @MethodSource
-    //@ValueSource(strings = {"Rennan", "Alice", "Bob", " ", "1234"})
     @DisplayName("when say hello with name non null valid hello greeting is returned")
     void when_say_hello_with_name_non_null_valid_hello_greeting_is_returned(String name, String expected) {
         //given

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b2dc222-0c6c-4f7a-b1bb-adfa8d2ea348" name="Changes" comment="" />
+    <list default="true" id="2b2dc222-0c6c-4f7a-b1bb-adfa8d2ea348" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ctw/workstation/learning/simple/HelloAcademyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ctw/workstation/learning/simple/HelloAcademyTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-agroal/3.29.3/quarkus-agroal-3.29.3.jar!/io/quarkus/agroal/runtime/DataSourcesJdbcBuildTimeConfig.class" root0="SKIP_INSPECTION" />
@@ -51,65 +53,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.HelloAcademyTest.a.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloAcademyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloAcademyTest.name_non_null.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloAcademyTest.testNameNonNull.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloAcademyTest.when_say_hello_with_name_null_valid_hello_greeting_is_returned.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloAcademyTest.when_say_hello_with_null_name_exception_should_be_thrown.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloExtAcademyTest.exploreSpy.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloExtAcademyTest.when_providing_a_valid_name_greeting_message_from_outer_space_is_returned.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloExtApiAcademyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloExtApiAcademyTest.when_providing_a_name_should_return_greeting_message_from_external_api.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloExtApiAcademyTest.when_providing_a_nonnull_name_should_post_the_name_to_database.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HelloExtApiAcademyTest.when_providing_a_null_name_should_return_greeting_message_from_external_api.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathOperationsTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathOperationsTest.when_add_two_numbers_correct_result_is_returned.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathOperationsTest.when_divide_by_zero_arithmetic_exception_is_thrown.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MathOperationsTest.when_divide_two_numbers_correct_result_is_returned.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TeamResourceTest.a.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TeamResourceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TeamResourceTest.get_single_team_that_does_not_exist_should_return_entity_not_found.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TeamResourceTest.post_team_and_store_in_variable.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TeamResourceTest.when_creating_a_team_an_internal_error_occurs.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TeamResourceTest.when_post_team_return_response_with_team.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TeamResourceTest.when_post_with_empty_fields_return_invalid_attributes_with_message.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TeamResourceTest.when_post_with_null_fields_return_error.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Quarkus.workstation-rack-module.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/ctw04644/projects/jpa-final-project/pom.xml&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.HelloAcademyTest.a.executor": "Run",
+    "JUnit.HelloAcademyTest.executor": "Run",
+    "JUnit.HelloAcademyTest.name_non_null.executor": "Run",
+    "JUnit.HelloAcademyTest.testNameNonNull.executor": "Run",
+    "JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned (1).executor": "Run",
+    "JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned (2).executor": "Run",
+    "JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned.executor": "Run",
+    "JUnit.HelloAcademyTest.when_say_hello_with_name_null_valid_hello_greeting_is_returned.executor": "Run",
+    "JUnit.HelloAcademyTest.when_say_hello_with_null_name_exception_should_be_thrown.executor": "Run",
+    "JUnit.HelloExtAcademyTest.exploreSpy.executor": "Run",
+    "JUnit.HelloExtAcademyTest.when_providing_a_valid_name_greeting_message_from_outer_space_is_returned.executor": "Run",
+    "JUnit.HelloExtApiAcademyTest.executor": "Run",
+    "JUnit.HelloExtApiAcademyTest.when_providing_a_name_should_return_greeting_message_from_external_api.executor": "Run",
+    "JUnit.HelloExtApiAcademyTest.when_providing_a_nonnull_name_should_post_the_name_to_database.executor": "Run",
+    "JUnit.HelloExtApiAcademyTest.when_providing_a_null_name_should_return_greeting_message_from_external_api.executor": "Run",
+    "JUnit.MathOperationsTest.executor": "Run",
+    "JUnit.MathOperationsTest.when_add_two_numbers_correct_result_is_returned.executor": "Run",
+    "JUnit.MathOperationsTest.when_divide_by_zero_arithmetic_exception_is_thrown.executor": "Run",
+    "JUnit.MathOperationsTest.when_divide_two_numbers_correct_result_is_returned.executor": "Run",
+    "JUnit.TeamResourceTest.a.executor": "Run",
+    "JUnit.TeamResourceTest.executor": "Run",
+    "JUnit.TeamResourceTest.get_single_team_that_does_not_exist_should_return_entity_not_found.executor": "Run",
+    "JUnit.TeamResourceTest.post_team_and_store_in_variable.executor": "Run",
+    "JUnit.TeamResourceTest.when_creating_a_team_an_internal_error_occurs.executor": "Run",
+    "JUnit.TeamResourceTest.when_post_team_return_response_with_team.executor": "Run",
+    "JUnit.TeamResourceTest.when_post_with_empty_fields_return_invalid_attributes_with_message.executor": "Run",
+    "JUnit.TeamResourceTest.when_post_with_null_fields_return_error.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Quarkus.workstation-rack-module.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/ctw04644/projects/jpa-final-project/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl.localhost\Ubuntu\home\ctw04644\projects\modules-exercices\04-jee-rest\04-02-rest\exercises\merge-java-101-to-quarkus\workstation-rack-module" />
@@ -130,18 +133,34 @@
       <recent name="com.ctw.workstation.resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HelloExtApiAcademyTest.when_providing_a_nonnull_name_should_post_the_name_to_database">
-    <configuration name="HelloExtApiAcademyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HelloAcademyTest">
+    <configuration name="HelloAcademyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="workstation-rack-module" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ctw.workstation.externals.*" />
+          <option name="PATTERN" value="com.ctw.workstation.learning.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ctw.workstation.externals" />
-      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.externals.HelloExtApiAcademyTest" />
+      <option name="PACKAGE_NAME" value="com.ctw.workstation.learning.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.learning.simple.HelloAcademyTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="workstation-rack-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctw.workstation.learning.simple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ctw.workstation.learning.simple" />
+      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.learning.simple.HelloAcademyTest" />
+      <option name="METHOD_NAME" value="when_say_hello_with_name_non_null_valid_hello_greeting_is_returned(java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,21 +213,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeamResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="workstation-rack-module" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ctw.workstation.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ctw.workstation.resources" />
-      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.resources.TeamResourceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="workstation-rack-module" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
       <module name="workstation-rack-module" />
       <QsMavenRunConfiguration>
@@ -249,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloAcademyTest" />
+        <item itemvalue="JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned" />
         <item itemvalue="JUnit.HelloExtApiAcademyTest.when_providing_a_nonnull_name_should_post_the_name_to_database" />
         <item itemvalue="JUnit.HelloExtApiAcademyTest.when_providing_a_null_name_should_return_greeting_message_from_external_api" />
         <item itemvalue="JUnit.HelloExtApiAcademyTest.when_providing_a_name_should_return_greeting_message_from_external_api" />
-        <item itemvalue="JUnit.HelloExtApiAcademyTest" />
-        <item itemvalue="JUnit.TeamResourceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -292,6 +296,7 @@
       <workItem from="1765193094798" duration="1403000" />
       <workItem from="1765395454965" duration="2580000" />
       <workItem from="1765532273549" duration="2634000" />
+      <workItem from="1765632233777" duration="6505000" />
     </task>
     <servers />
   </component>
