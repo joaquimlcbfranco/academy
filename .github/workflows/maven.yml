@@ -31,4 +31,4 @@ jobs:
       uses: ./.github/actions/docker_build
       with:
         {{ tag_name: 'v1.1',
-          image_name: 'academy' }}
+          image_name: 'academy-test' }}

@@ -20,7 +20,7 @@ runs:
         else
           export TAG="${{ inputs.tag_name }}"
         fi
-        docker build . --file ${{ inputs.path_dockerfile }} --tag ${{ inputs.image_name}}:$TAG
+        docker build . --file ${{ inputs.path_dockerfile }} --tag ${{ inputs.image_name }}:$TAG
         
         docker image ls
       shell: bash
