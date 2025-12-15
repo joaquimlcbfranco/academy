@@ -27,3 +27,5 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Create Docker Image
+      run: docker build . --tag academy:$(date +%s)
