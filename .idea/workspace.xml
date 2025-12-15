@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b2dc222-0c6c-4f7a-b1bb-adfa8d2ea348" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-agroal/3.29.3/quarkus-agroal-3.29.3.jar!/io/quarkus/agroal/runtime/DataSourcesJdbcBuildTimeConfig.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-core/3.29.3/quarkus-core-3.29.3-sources.jar!/io/quarkus/runtime/annotations/ConfigRoot.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/ctw/workstation/config/WiremockResource.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="35eFHve29BHXhpaRS2RBpvwtE66" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.HelloAcademyTest.a.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloAcademyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloAcademyTest.name_non_null.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloAcademyTest.testNameNonNull.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloAcademyTest.when_say_hello_with_name_non_null_valid_hello_greeting_is_returned.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloAcademyTest.when_say_hello_with_name_null_valid_hello_greeting_is_returned.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloAcademyTest.when_say_hello_with_null_name_exception_should_be_thrown.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloExtAcademyTest.exploreSpy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloExtAcademyTest.when_providing_a_valid_name_greeting_message_from_outer_space_is_returned.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloExtApiAcademyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloExtApiAcademyTest.when_providing_a_name_should_return_greeting_message_from_external_api.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloExtApiAcademyTest.when_providing_a_nonnull_name_should_post_the_name_to_database.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HelloExtApiAcademyTest.when_providing_a_null_name_should_return_greeting_message_from_external_api.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathOperationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathOperationsTest.when_add_two_numbers_correct_result_is_returned.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathOperationsTest.when_divide_by_zero_arithmetic_exception_is_thrown.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MathOperationsTest.when_divide_two_numbers_correct_result_is_returned.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TeamResourceTest.a.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TeamResourceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TeamResourceTest.get_single_team_that_does_not_exist_should_return_entity_not_found.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TeamResourceTest.post_team_and_store_in_variable.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TeamResourceTest.when_creating_a_team_an_internal_error_occurs.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TeamResourceTest.when_post_team_return_response_with_team.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TeamResourceTest.when_post_with_empty_fields_return_invalid_attributes_with_message.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TeamResourceTest.when_post_with_null_fields_return_error.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Quarkus.workstation-rack-module.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu/home/ctw04644/projects/jpa-final-project/pom.xml&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\ctw04644\projects\modules-exercices\04-jee-rest\04-02-rest\exercises\merge-java-101-to-quarkus\workstation-rack-module" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ctw04644\projects\modules-exercices\04-jee-rest\04-02-rest\exercises\merge-java-101-to-quarkus\workstation-rack-module\src\main\java\com\ctw\workstation\data\repository" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ctw04644\projects\modules-exercices\04-jee-rest\04-02-rest\exercises\merge-java-101-to-quarkus\workstation-rack-module\src\main\java\com\ctw\workstation\data\entity" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ctw04644\projects\modules-exercices\04-jee-rest\04-02-rest\exercises\merge-java-101-to-quarkus\workstation-rack-module\src\main\resources" />
+      <recent name="\\wsl.localhost\Ubuntu\home\ctw04644\projects\modules-exercices\04-jee-rest\04-02-rest\exercises\merge-java-101-to-quarkus\workstation-rack-module\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\ctw04644\projects\modules-exercices\04-jee-rest\04-02-rest\exercises\merge-java-101-to-quarkus\workstation-rack-module" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ctw.workstation.externals" />
+      <recent name="com.ctw.workstation.learning.simple" />
+      <recent name="com.ctw.workstation.resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HelloExtApiAcademyTest.when_providing_a_nonnull_name_should_post_the_name_to_database">
+    <configuration name="HelloExtApiAcademyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="workstation-rack-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctw.workstation.externals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ctw.workstation.externals" />
+      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.externals.HelloExtApiAcademyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloExtApiAcademyTest.when_providing_a_name_should_return_greeting_message_from_external_api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="workstation-rack-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctw.workstation.externals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ctw.workstation.externals" />
+      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.externals.HelloExtApiAcademyTest" />
+      <option name="METHOD_NAME" value="when_providing_a_name_should_return_greeting_message_from_external_api" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloExtApiAcademyTest.when_providing_a_nonnull_name_should_post_the_name_to_database" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="workstation-rack-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctw.workstation.externals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ctw.workstation.externals" />
+      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.externals.HelloExtApiAcademyTest" />
+      <option name="METHOD_NAME" value="when_providing_a_nonnull_name_should_post_the_name_to_database" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloExtApiAcademyTest.when_providing_a_null_name_should_return_greeting_message_from_external_api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="workstation-rack-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctw.workstation.externals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ctw.workstation.externals" />
+      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.externals.HelloExtApiAcademyTest" />
+      <option name="METHOD_NAME" value="when_providing_a_null_name_should_return_greeting_message_from_external_api" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeamResourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="workstation-rack-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ctw.workstation.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ctw.workstation.resources" />
+      <option name="MAIN_CLASS_NAME" value="com.ctw.workstation.resources.TeamResourceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="workstation-rack-module" type="QuarkusRunConfigurationType" factoryName="Quarkus" nameIsGenerated="true">
+      <module name="workstation-rack-module" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="cmdOptions" />
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="multimoduleDir" />
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="projectsCmdOptionValues">
+                <list />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+        <emulateTerminal>false</emulateTerminal>
+        <profile>dev</profile>
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HelloExtApiAcademyTest.when_providing_a_nonnull_name_should_post_the_name_to_database" />
+        <item itemvalue="JUnit.HelloExtApiAcademyTest.when_providing_a_null_name_should_return_greeting_message_from_external_api" />
+        <item itemvalue="JUnit.HelloExtApiAcademyTest.when_providing_a_name_should_return_greeting_message_from_external_api" />
+        <item itemvalue="JUnit.HelloExtApiAcademyTest" />
+        <item itemvalue="JUnit.TeamResourceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b2dc222-0c6c-4f7a-b1bb-adfa8d2ea348" name="Changes" comment="" />
+      <created>1763462546035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763462546035</updated>
+      <workItem from="1763462547181" duration="16523000" />
+      <workItem from="1763540419273" duration="336000" />
+      <workItem from="1763540823614" duration="420000" />
+      <workItem from="1763541280971" duration="164000" />
+      <workItem from="1763541460955" duration="2585000" />
+      <workItem from="1763546222218" duration="3807000" />
+      <workItem from="1763654757849" duration="663000" />
+      <workItem from="1763674248632" duration="1094000" />
+      <workItem from="1763736439797" duration="941000" />
+      <workItem from="1763892580564" duration="205000" />
+      <workItem from="1763893007739" duration="24192000" />
+      <workItem from="1764003906411" duration="366000" />
+      <workItem from="1764058352932" duration="4951000" />
+      <workItem from="1764157531841" duration="46721000" />
+      <workItem from="1764327705031" duration="17422000" />
+      <workItem from="1764674570551" duration="2440000" />
+      <workItem from="1764859695816" duration="28000" />
+      <workItem from="1765193094798" duration="1403000" />
+      <workItem from="1765395454965" duration="2580000" />
+      <workItem from="1765532273549" duration="2634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.enterprise:jakarta.enterprise.cdi-api" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:io.quarkus:quarkus-core" />
+    <option featureType="dependencySupport" implementationName="java:io.smallrye.reactive:mutiny" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.ws.rs:jakarta.ws.rs-api" />
+    <option featureType="dependencySupport" implementationName="java:org.wiremock:wiremock" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

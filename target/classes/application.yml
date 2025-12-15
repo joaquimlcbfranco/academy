@@ -1,0 +1,75 @@
+greeting:
+  message: "Hello from Quarkus REST"
+
+goodbye:
+  message: "Goodbye from Quarkus REST"
+
+external-api:
+  url: "http://bmw.external.com"
+
+quarkus:
+  log:
+    level: INFO
+  #    min-level: DEBUG
+    category:
+      com.ctw.workstation.resources.TeamResource:
+        level: DEBUG
+      org.hibernate:
+        level: INFO
+    console:
+      json:
+        enabled: false
+        pretty-print: true
+        additional-field:
+          logId:
+            value: logId-value
+            type: string
+      format: "%d{yy-MM-dd HH:mm:ss} %-5p [%c}] logId-value=%X{logId} %s%e%n"
+  swagger-ui:
+    always-include: true
+  http:
+    port:
+      9090
+    cors:
+      enabled:
+        true
+      origins: /.*/
+  rest-client:
+    external-api:
+      url: ${external-api.url}
+
+  datasource:
+    db-kind: postgresql
+    devservices:
+      enabled: true
+      reuse: false
+      image-name: "postgres:14.10-alpine"
+      container-env:
+        "POSTGRES_DB": "workstation-rack"
+        "POSTGRES_USER": "postgres"
+        "PASSWORD": "postgres"
+      port: 5433
+      volumes:
+        "db/init-db": "/docker-entrypoint-initdb.d"
+      db-name: "workstation-rack"
+      username: "postgres"
+      password: "postgres"
+    jdbc:
+      url: jdbc:postgresql://localhost:5433/workstation-rack
+      initial-size: 2
+      min-size: 2
+      max-size: 5
+
+  liquibase:
+    migrate-at-start: true
+    search-path:
+    - "src/main/resources/db"
+    change-log: "changeLog.xml"
+
+  hibernate-orm:
+    packages: com.ctw.workstation
+    validate-in-dev-mode: false
+    database:
+      generation: none
+    log:
+      sql: ${hibernate_orm_log_sql:false}
