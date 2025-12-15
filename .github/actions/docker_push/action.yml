@@ -1,0 +1,17 @@
+name: docker_push
+author: ctw04644
+description: docker_push
+inputs:
+  docker_username:
+    description: "Field for storing the docker username"
+    required: true
+  docker_image:
+    description: "Field for storing the docker image"
+    required: true
+runs:
+  using: composite
+  steps:
+    - run: |
+        docker tag ${{ inputs.docker_image }} ${{ inputs.docker_username }}/academy:v1.0
+        docker push ${{ inputs.docker_username }}/academy:v1.0
+      shell: bash

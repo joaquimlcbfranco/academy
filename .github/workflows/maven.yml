@@ -33,3 +33,15 @@ jobs:
           path_dockerfile: 'src/main/docker/Dockerfile.jvm'
           tag_name: 'v1.1'
           image_name: 'academy-test'
+    - name: Docker list images
+      uses: docker image ls
+    - name: Login to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
+    - name: Tag image and push it to Docker Hub
+      uses: ./.github/actions/docker_push
+      with:
+        docker_image: 'academy-test: v1.1'
+        docker_username: 'joaquimfranco57216'
