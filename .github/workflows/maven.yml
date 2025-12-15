@@ -30,8 +30,6 @@ jobs:
     - name: Docker build using GitHub Actions
       uses: ./.github/actions/docker_build
       with:
-        {{
-          path_dockerfile: 'src/main/docker/Dockerfile.jvm',
-          tag_name: 'v1.1',
+          path_dockerfile: 'src/main/docker/Dockerfile.jvm'
+          tag_name: 'v1.1'
           image_name: 'academy-test'
-        }}
