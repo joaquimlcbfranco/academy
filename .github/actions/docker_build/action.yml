@@ -1,0 +1,9 @@
+name: Build with Maven
+description: Build the project using Maven
+runs:
+  using: composite
+  steps:
+    - run: |
+        docker build . --file src/main/docker/Dockerfile.jvm --tag academy:$(date +%s)
+        docker image ls
+      shell: bash
