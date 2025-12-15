@@ -9,11 +9,20 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
   workflow_dispatch:
+    inputs:
+      environment:
+        description: "Chosen environment"
+        required: true
+        options:
+          - Test
+          - Int
+          - E2E
+          - Prod
 
 jobs:
   build:
@@ -46,3 +55,4 @@ jobs:
       with:
         docker_image: 'academy-test:v1.1'
         docker_username: 'joaquimfranco57216'
+        environment: ${{ inputs.environment }}
