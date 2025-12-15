@@ -25,5 +25,10 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - uses: ./.github/actions/maven_build
-    - uses: ./.github/actions/docker_build
+    - name: Maven build using GitHub Actions
+      uses: ./.github/actions/maven_build
+    - name: Docker build using GitHub Actions
+      uses: ./.github/actions/docker_build
+      with:
+        {{ tag_name: 'v1.1',
+          image_name: 'academy' }}

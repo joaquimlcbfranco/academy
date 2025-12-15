@@ -1,15 +1,27 @@
 name: Docker build image and list
 description: Build image and list using Dockerfile
 inputs:
-  replace_with_your_input_name:
-    description: "Replace-With-Your-Input-Description"
+  path_dockerfile:
+    description: "This allows us to target the correct Dockerfile, even if it has a different name or is located in a different directory."
     required: false
-    default: "Replace-With-Your-Input-Default-Value"
+    default: "Dockerfile"
+  image_name:
+    description: "Specifies the name for the generated Docker image"
+    required: false
+  tag_name:
+    description: "Specifies the tag to be added to the final image"
+    required: false
 runs:
   using: composite
   steps:
     - run: |
-        docker build . --file src/main/docker/Dockerfile.jvm --tag academy:$(date +%s)
+        if [ -z "${{ inputs.tag_name }}" ]; then
+          export TAG=$(date +%s)
+        else
+          export TAG="${{ inputs.tag_name }}"
+        fi
+        docker build . --file ${{ inputs.path_dockerfile }} --tag ${{ inputs.image_name}}:$TAG
+        
         docker image ls
       shell: bash
 
