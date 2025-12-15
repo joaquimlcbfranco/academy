@@ -28,4 +28,4 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: Create Docker Image
-      run: docker build . --tag academy:$(date +%s)
+      run: docker build . --file src/main/docker/Dockerfile.jvm --tag academy:$(date +%s)
